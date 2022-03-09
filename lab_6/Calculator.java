@@ -32,9 +32,13 @@ public class Calculator {
 			System.out.println(mutiply(num1,num2));
 			break;
 	
-		default:
+		
+	      	case "/": 
+		      	System.out.println(divide(num1,num2));
+		    
+	      	default:
 
-			System.out.println(divide(num1,num2));
+			System.out.println("please enter a correct operator");
     }
 		
 		
